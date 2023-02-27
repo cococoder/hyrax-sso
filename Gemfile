@@ -1,7 +1,8 @@
+# frozen_string_literal: true
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-# Declare your gem's dependencies in hyrax-sso.gemspec.
+# Declare your gem's dependencies in hyrax-autopopulation.gemspec.
 # Bundler will treat runtime dependencies like base dependencies, and
 # development dependencies will be added by default to the :development group.
 gemspec
@@ -12,4 +13,6 @@ gemspec
 # your gem to rubygems.org.
 
 # To use a debugger
-# gem 'byebug', group: [:development, :test]
+gem 'byebug', group: [:development, :test]
+eval_gemfile File.expand_path('spec/internal_test_hyrax/Gemfile', File.dirname(__FILE__))
+
