@@ -15,4 +15,3 @@ gemspec
 # To use a debugger
 gem 'byebug', group: [:development, :test]
 eval_gemfile File.expand_path('spec/internal_test_hyrax/Gemfile', File.dirname(__FILE__))
-

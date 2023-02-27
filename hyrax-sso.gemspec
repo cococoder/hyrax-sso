@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 $LOAD_PATH.push File.expand_path("lib", __dir__)
 
 # Maintain your gem's version:
@@ -34,5 +35,4 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bixby", "~> 1.0.0"
   spec.add_development_dependency "webdrivers", "~> 4.0"
   spec.add_development_dependency("simplecov", "0.17.1", "< 0.18")
-
 end

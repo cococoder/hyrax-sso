@@ -95,4 +95,3 @@ RSpec.configure do |config|
 end
 
 require File.expand_path("internal_test_hyrax/spec/spec_helper.rb", __dir__)
-

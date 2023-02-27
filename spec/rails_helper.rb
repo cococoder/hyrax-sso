@@ -128,4 +128,3 @@ RSpec.configure do |config|
   config.before(:suite) { disable_production_minter! }
   config.after(:suite)  { enable_production_minter! }
 end
-
